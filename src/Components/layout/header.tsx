@@ -34,7 +34,7 @@ function Header(props: any): JSX.Element {
         <div style={{ backgroundColor: "#1e88e5" }}>
             <Container>
                 <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
-                    <Typography sx={{ fontFamily: "Dosis",padding:1}} variant="h3">
+                    <Typography sx={{ fontFamily: "Dosis", padding: 1 }} variant="h3">
                         <NavLink style={{ color: "white", textDecoration: "none", }} to={"/"}>
                             Coupons
                         </NavLink>

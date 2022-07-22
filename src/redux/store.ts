@@ -9,9 +9,4 @@ import { guestReducer } from './guestState';
 
 const reducers = combineReducers({ authState: authReducer, companyState: companyReducer, customerState: customerReducer, couponState: couponReducer, guestState: guestReducer, cartState: cartReducer })
 
-export const store = configureStore({
-    reducer: reducers,
-     middleware: (getDefaultMiddleware) => getDefaultMiddleware({
-        immutableCheck: false
-    })
-});
+export const store = configureStore({ reducer: reducers,});
