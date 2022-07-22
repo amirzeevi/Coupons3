@@ -9,7 +9,7 @@ function CouponCard(props: { coupon: Coupon }): JSX.Element {
     const addToCart = () => {
         store.dispatch(addCouponToCart(props.coupon))
     }
-    const me = styled
+    
     return (
         <>
             <Card style={{ borderRadius: 6, boxShadow: "0 2px 2px #9e9e9e", maxWidth: 304, fontFamily: "Roboto" }}>
